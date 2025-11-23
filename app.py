@@ -13,6 +13,37 @@ import uuid
 import sqlite3
 from werkzeug.security import generate_password_hash, check_password_hash
 
+# Load environment variables from a local .env file if present so API keys
+# placed there are available via os.getenv(). Prefer python-dotenv if installed,
+# otherwise do a lightweight parse fallback.
+try:
+    import importlib
+    dotenv = importlib.import_module('dotenv')
+    load_dotenv = getattr(dotenv, 'load_dotenv', None)
+    if callable(load_dotenv):
+        dotenv_path = os.path.join(os.path.dirname(__file__), '.env')
+        # use explicit path so running from other cwd still finds the file
+        load_dotenv(dotenv_path=dotenv_path)
+        print(f"Loaded .env from {dotenv_path}")
+except Exception:
+    # Fallback: simple parser if .env exists and keys are not already in env
+    try:
+        dotenv_path = os.path.join(os.path.dirname(__file__), '.env')
+        if os.path.exists(dotenv_path):
+            with open(dotenv_path, 'r', encoding='utf-8') as f:
+                for line in f:
+                    line = line.strip()
+                    if not line or line.startswith('#') or '=' not in line:
+                        continue
+                    k, v = line.split('=', 1)
+                    k = k.strip()
+                    v = v.strip().strip('"').strip("'")
+                    if k and k not in os.environ:
+                        os.environ[k] = v
+            print(f"Loaded .env (fallback) from {dotenv_path}")
+    except Exception:
+        pass
+
 
 app = Flask(__name__, static_folder='templates', static_url_path='')
 
@@ -386,6 +417,7 @@ def api_query():
     college_answer = search_college_files(msg_lower)
     if college_answer:
         answer = sanitize_bot_msg(college_answer)
+        print(f"api_query: returning college_data answer (len={len(answer)}) for query: {message[:60]}")
         return jsonify({"answer": answer, "source": "college_data"})
 
     # If we reach here the query is outside our local knowledge. Use AI fallback but keep it college-focused.
@@ -394,7 +426,7 @@ def api_query():
     outside_keywords = ['weather', 'movie', 'news', 'stock', 'football', 'cricket', 'recipe']
     if any(k in msg_lower for k in outside_keywords):
         answer = sanitize_bot_msg("This chatbot provides information about Maratha Mandal Engineering College (MMEC) only. For other queries please use a general search.")
-        return jsonify({"answer": answer, "source": "policy"})
+        return jsonify({"answer": answer, "source": "policy", "disclaimer": prefix})
 
     # Try to scrape relevant content from www.mmec.edu.in
     scraped_content = scrape_mmec_website(msg_lower)
@@ -408,33 +440,56 @@ def api_query():
     prefix = "Note: This answer is not from official MMEC data — "
     # If the ai_answer already contains our '[AI not configured]' style message, return short fallback instead
     if isinstance(ai_answer, str) and ai_answer.startswith('[AI not configured]'):
-        # record as unanswered for admin review and return short message
+        # record for admin review
         try:
             record_unanswered(message)
         except Exception:
             pass
+        # If we were able to scrape MMEC pages earlier, return a short extract
+        # from the scraped content instead of the generic 'AI not configured' message.
+        if scraped_content:
+            short = scraped_content.strip()
+            if len(short) > 400:
+                short = short[:390].rsplit('.', 1)[0] + '.'
+            answer = sanitize_bot_msg(short)
+            print(f"api_query: AI not configured — returning scraped content (len={len(answer)}) for query: {message[:60]}")
+            return jsonify({"answer": answer, "source": "ai", "disclaimer": prefix})
+        # otherwise fall back to the previous short error message
         answer = sanitize_bot_msg("Sorry, AI service is not configured on the server. The chatbot answers college FAQs from local data.")
-        return jsonify({"answer": answer, "source": "error"})
+        print('api_query: AI not configured and no scraped content — returning fallback message')
+        return jsonify({"answer": answer, "source": "error", "disclaimer": prefix})
+
     if isinstance(ai_answer, str) and ai_answer.startswith('[AI error]'):
         try:
             record_unanswered(message)
         except Exception:
             pass
+        # If scraping found relevant content, return that content instead of a generic error
+        if scraped_content:
+            short = scraped_content.strip()
+            if len(short) > 400:
+                short = short[:390].rsplit('.', 1)[0] + '.'
+            answer = sanitize_bot_msg(short)
+            print(f"api_query: AI error — returning scraped content (len={len(answer)}) for query: {message[:60]}")
+            return jsonify({"answer": answer, "source": "ai", "disclaimer": prefix})
         answer = sanitize_bot_msg("Error contacting AI provider. Try again later or ask a college-specific question.")
-        return jsonify({"answer": answer, "source": "error"})
+        print('api_query: AI error and no scraped content — returning fallback error')
+        return jsonify({"answer": answer, "source": "error", "disclaimer": prefix})
     # Ensure short answer: limit to 400 chars
     if isinstance(ai_answer, str):
         short = ai_answer.strip()
         if len(short) > 400:
             short = short[:390].rsplit('.',1)[0] + '.'
-        answer = sanitize_bot_msg(prefix + short)
-        return jsonify({"answer": answer, "source": "ai"})
+        # Sanitize the AI-generated text but keep the official disclaimer separate so
+        # the UI can show the full prefix exactly as requested by the user.
+        answer = sanitize_bot_msg(short)
+        return jsonify({"answer": answer, "source": "ai", "disclaimer": prefix})
     try:
         record_unanswered(message)
     except Exception:
         pass
     answer = sanitize_bot_msg("Sorry, couldn't generate an answer.")
-    return jsonify({"answer": answer, "source": "error"})
+    return jsonify({"answer": answer, "source": "error", "disclaimer": prefix})
 
 @app.route('/api/logs', methods=['GET','POST','DELETE'])
 def api_logs():
@@ -702,6 +757,7 @@ def scrape_mmec_website(query_lower):
         bs4 = importlib.import_module('bs4')
         BeautifulSoup = bs4.BeautifulSoup
     except ImportError:
+        print('scrape_mmec_website: requests or bs4 not installed; skipping scraping')
         return None  # Libraries not installed
 
     base_url = 'https://www.mmec.edu.in'
@@ -735,12 +791,19 @@ def scrape_mmec_website(query_lower):
             for script in soup(["script", "style"]):
                 script.decompose()
             text = soup.get_text(separator=' ', strip=True)
-            scraped_text += f"From {url}:\n{text[:2000]}\n\n"  # Limit text per page
+            snippet = text[:2000]
+            scraped_text += f"From {url}:\n{snippet}\n\n"  # Limit text per page
+            print(f"scrape_mmec_website: fetched {url} ({len(snippet)} chars)")
         except Exception as e:
             print(f"Scraping error for {url}: {e}")
             continue
 
-    return scraped_text.strip() if scraped_text else None
+    out = scraped_text.strip() if scraped_text else None
+    if out:
+        print(f"scrape_mmec_website: total scraped length {len(out)}")
+    else:
+        print('scrape_mmec_website: no content scraped')
+    return out
 
 def call_gemini(message, role, scraped_content=None):
     """

@@ -217,8 +217,8 @@ loadingMsg.innerHTML = `🤖 Thinking...`;
 messagesContainer.appendChild(loadingMsg);
 messagesContainer.scrollTop = messagesContainer.scrollHeight;
 
-// Reduce delay for faster response
-await new Promise(resolve => setTimeout(resolve, 500 + Math.random() * 200));
+// Minimal artificial delay so UI updates but responses are fast
+await new Promise(resolve => setTimeout(resolve, 50));
 
   // Get role and user
   const role = localStorage.getItem('mmec_role') || 'Student';
@@ -248,8 +248,18 @@ try {
     msgBot.className = 'msg bot';
     let rawAnswer = data.answer || '';
     let formattedAnswer = formatAnswerHTML(rawAnswer);
-    // (Removed client-side notice insertion for non-MMEC answers)
-    msgBot.innerHTML = `${formattedAnswer}<div class="msg-info">🤖 <span>${formatDateTime()}</span></div>`;
+    // If server provided a `disclaimer`, show it exactly (preferred).
+    // Otherwise, if server marked source==='ai', show a default disclaimer.
+    let aiNoteHTML = '';
+    try {
+      if (data && data.disclaimer) {
+        aiNoteHTML = `<div class="ai-note">${data.disclaimer}</div>`;
+      } else if (data && data.source === 'ai') {
+        aiNoteHTML = `<div class="ai-note">Note: This answer is not from official MMEC data — </div>`;
+      }
+    } catch (e) { aiNoteHTML = ''; }
+
+    msgBot.innerHTML = `${aiNoteHTML}${formattedAnswer}<div class="msg-info">🤖 <span>${formatDateTime()}</span></div>`;
     messagesContainer.appendChild(msgBot);
     messagesContainer.scrollTop = messagesContainer.scrollHeight;
 

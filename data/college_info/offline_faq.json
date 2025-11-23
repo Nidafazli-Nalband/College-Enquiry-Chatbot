@@ -4,12 +4,12 @@
     {
       "keyword": "about college",
       "keywords": ["about", "college", "mmec", "information", "details", "institute"],
-      "answer": "🏛️ <b>Maratha Mandal Engineering College (MMEC)</b><br><br>📍 <b>Location:</b> Halbhavi, Belagavi – 591113<br>🗓️ <b>Established:</b> 1997<br>🎓 <b>Affiliation:</b> VTU Belagavi<br>⚙️ <b>Approved by:</b> AICTE<br>🏢 <b>Managed by:</b> Maratha Mandal Trust (est. 1931)<br><br>⭐ MMEC offers value-based education, strong placements, modern labs, and a student-friendly campus.<br><br>🌐 Website: www.mmec.edu.in"
+      "answer": "🏛️ <b>Maratha Mandal Engineering College (MMEC)</b><br><br>📍 <b>Location:</b> Halbhavi, Belagavi – 591113<br>🗓️ <b>Established:</b> 1997<br>🎓 <b>Affiliation:</b> VTU Belagavi<br>⚙️ <b>Approved by:</b> AICTE<br>🏢 <b>Managed by:</b> Maratha Mandal Trust (est. 1931)<br><br>⭐ MMEC offers value-based education, strong placements, modern labs, and a student-friendly campus.<br><br>🌐 Website: <a href=\"https://www.mmec.edu.in\" target=\"_blank\" rel=\"noopener\">www.mmec.edu.in</a>"
     },
 
     {
       "keyword": "director",
-      "keywords": ["director", "college director", "head", "management"],
+      "keywords": ["director", "college director", "head"],
       "answer": "👨‍💼 <b>College Director</b><br><br><b>Dr. D G Kulkarni</b><br>He provides strategic leadership and guides the institution’s growth."
     },
 
@@ -58,7 +58,7 @@
     {
       "keyword": "admissions",
       "keywords": ["admission", "apply", "eligibility", "process"],
-      "answer": "📝 <b>Admissions</b><br><br>✔ Eligibility as per VTU & AICTE norms<br>✔ KCET / COMEDK / DCET accepted<br>✔ Document verification required<br><br>📌 Details: www.mmec.edu.in/admissions<br>📞 Helpline: 9353364643"
+      "answer": "📝 <b>Admissions</b><br><br>✔ Eligibility as per VTU & AICTE norms<br>✔ KCET / COMEDK / DCET accepted<br>✔ Document verification required<br><br>📌 Details: <a href=\"https://www.mmec.edu.in/admissions\" target=\"_blank\" rel=\"noopener\">www.mmec.edu.in/admissions</a><br>📞 Helpline: 9353364643"
     },
 
     {
@@ -70,7 +70,13 @@
     {
       "keyword": "student life",
       "keywords": ["student life", "campus life", "clubs", "fest", "events", "activities"],
-      "answer": "🎓 Student Life at MMEC<br><br>• Technical Clubs: Coding, Robotics, Hackathons<br>• Cultural Events: Annual Fest “Ojas”, Dance & Music<br>• Social Service: NSS Activities & Community Outreach<br>• Sports: Indoor & Outdoor Facilities, Tournaments<br>• Growth: Workshops, Seminars & Guest Lectures<br><br>Visit https://www.mmec.edu.in for student clubs and event calendar."
+      "answer": "🎓 Student Life at MMEC<br><br>• Technical Clubs: Coding, Robotics, Hackathons<br>• Cultural Events: Annual Fest “Ojas”, Dance & Music<br>• Social Service: NSS Activities & Community Outreach<br>• Sports: Indoor & Outdoor Facilities, Tournaments<br>• Growth: Workshops, Seminars & Guest Lectures<br><br>Visit <a href=\"https://www.mmec.edu.in\" target=\"_blank\" rel=\"noopener\">https://www.mmec.edu.in</a> for student clubs and event calendar."
+    },
+
+    {
+      "keyword": "scholarship",
+      "keywords": ["scholarship", "scholarships", "fee concession", "scholar", "minority", "government schemes"],
+      "answer": "🎓 <b>Scholarships at MMEC</b><br><br>✨ MMEC supports students with multiple Government & Institutional scholarship schemes:<br><br>• 🕌 <b>Minority Scholarship</b> (for eligible Muslim, Christian, Jain, Sikh, Buddhist students)<br>• 🎯 <b>Merit-Based Scholarships</b> (based on academic performance)<br>• 💼 <b>SC/ST & OBC Scholarships</b> under Government of Karnataka<br>• 📚 <b>Pragati Scholarship</b> for girl students (AICTE)<br>• 🤝 <b>Saksham Scholarship</b> for specially-abled students (AICTE)<br>• 🏅 <b>Fee Concession Schemes</b> for economically weaker students<br><br>📌 <b>Required documents usually include:</b><br>• Income certificate<br>• Aadhaar card<br>• SSLC/PUC/UG marks card<br>• Bank passbook<br>• Caste certificate (if applicable)<br><br>🌐 For detailed guidelines, visit: <a href=\"https://www.mmec.edu.in\" target=\"_blank\" rel=\"noopener\">www.mmec.edu.in</a><br>📞 For assistance: Contact the MMEC Scholarship Help Desk at <b>9353364643</b>."
     },
 
     {
@@ -90,6 +96,7 @@
       "keywords": ["placement", "placements", "companies"],
       "answer": "💼 <b>Placements</b><br><br>• Regular training & aptitude sessions<br>• Companies: Infosys, TCS, Wipro, Tech Mahindra, Bosch, etc.<br>• Average Package: ₹4.5 LPA<br>• Highest Package: ₹12 LPA"
     },
+    
 
     {
       "keyword": "facilities",
@@ -100,7 +107,7 @@
     {
       "keyword": "contact",
       "keywords": ["contact", "contact detail","address", "phone", "email"],
-      "answer": "📍 <b>Contact MMEC</b><br><br>🏛️ Halbhavi, Belagavi<br>📞 9353364643<br>✉ info@mmec.edu.in"
+      "answer": "📍 <b>Contact MMEC</b><br><br>🏛️ Halbhavi, Belagavi<br>📞 9353364643<br>✉ <a href=\"mailto:info@mmec.edu.in\">info@mmec.edu.in</a>"
     },
 
     {

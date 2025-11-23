@@ -2043,5 +2043,293 @@
     "user_msg": "student life",
     "bot_msg": "I can provide information regarding facilities and other aspects of student life at Maratha Mandal Engineering College (MMEC). This includes:\n*   **Hostels:** Boy's and Girl's Hostels are available.\n*   **Canteen:** Canteen services are provided.\n*   **Sports:** Sports facilities are available.\n*   **Transport:** Transportation services are available.",
     "offline": false
+  },
+  {
+    "id": "d655b324-fdb0-4021-afd4-04d8889aa34e",
+    "ts": "2025-11-23T15:24:17.744886Z",
+    "user": "nida@gmail.com",
+    "user_msg": "admission process",
+    "bot_msg": "\ud83d\udcdd <b>Admissions</b><br><br>\u2714 Eligibility as per VTU & AICTE norms<br>\u2714 KCET / COMEDK / DCET accepted<br>\u2714 Document verification required<br><br>\ud83d\udccc Details: www.mmec.edu.in/admissions<br>\ud83d\udcde Helpline: 9353364643",
+    "offline": false
+  },
+  {
+    "id": "325c5adf-aaf3-4843-a694-427298cebd03",
+    "ts": "2025-11-23T15:24:25.729627Z",
+    "user": "nida@gmail.com",
+    "user_msg": "fee structure",
+    "bot_msg": "\ud83d\udcb0 <b>Fee Structure at MMEC</b><br><br>\n<b>A. Management Quota:</b><br>\n\u2022 \ud83d\udcbb CSE: \u20b92,00,000/- per year<br>\n\u2022 \ud83d\udce1 ECE: \u20b91,75,000/- per year<br>\n\u2022 \ud83e\udd16 Robotics & AI (R&AI): \u20b91,70,000/- per year<br>\n\u2022 \u2699\ufe0f Mechanical Engineering:<br>\n&nbsp;&nbsp;&nbsp;&nbsp;\u2022 1st Year: \u20b935,000/-<br>\n&nbsp;&nbsp;&nbsp;&nbsp;\u2022 2nd Year Onwards: \u20b955,000/- per year<br><br>\n<b>B. Merit Students:</b><br>\n\u2022 \ud83c\udf93 All branches: \u20b91,00,000/- per year<br><br>\n<b>C. Additional Fees:</b><br>\n<b>1. One-time Fees:</b><br>\n\u2022 \ud83d\udcdd Admission Form: \u20b91,200/-<br>\n\u2022 \ud83c\udf93 Alumni Association: \u20b9500/-<br><br>\n<b>2. Annual Fees:</b><br>\n\u2022 \ud83c\udfdb Department Association: \u20b9500/-<br>\n\u2022 \ud83d\ude8c Transportation: \u20b912,000/- (\u20b96,000 by Management + \u20b96,000 by Student)<br><br>\n<b>D. Hostel Facilities:</b><br>\n\u2022 \ud83c\udfe0 Accommodation: \u20b940,000/- per year<br>\n\u2022 \ud83d\udd10 Security Deposit: \u20b910,000/- (Non-refundable)<br>\n\u2022 \ud83c\udf7d\ufe0f Mess Charges: \u20b93,500 \u2013 \u20b93,800 per month (depends on market rates)<br><br>\n<b>Important Notes:</b><br>\n\u2022 \ud83d\udcd8 Admissions based on merit (MMEC Test / KEA)<br>\n\u2022 \ud83d\udeab No donations accepted<br>\n\u2022 \ud83d\udcb3 Payments: Online Banking, UPI, Cash, DD<br>\n\u2022 \u274c Bank cheques not accepted<br><br>\n\ud83d\udcde For detailed fee structure: +91 9353364643",
+    "offline": false
+  },
+  {
+    "id": "01af0f71-ba06-48e2-8bb8-d3ecd5af49ae",
+    "ts": "2025-11-23T15:24:31.020177Z",
+    "user": "nida@gmail.com",
+    "user_msg": "contact details",
+    "bot_msg": "\ud83c\udfdb\ufe0f <b>Maratha Mandal Engineering College (MMEC)</b><br><br>\ud83d\udccd <b>Location:</b> Halbhavi, Belagavi \u2013 591113<br>\ud83d\uddd3\ufe0f <b>Established:</b> 1997<br>\ud83c\udf93 <b>Affiliation:</b> VTU Belagavi<br>\u2699\ufe0f <b>Approved by:</b> AICTE<br>\ud83c\udfe2 <b>Managed by:</b> Maratha Mandal Trust (est. 1931)<br><br>\u2b50 MMEC offers value-based education, strong placements, modern labs, and a student-friendly campus.<br><br>\ud83c\udf10 Website: www.mmec.edu.in",
+    "offline": false
+  },
+  {
+    "id": "6d290bf2-44c3-4c7a-9826-c1ca1f9915f3",
+    "ts": "2025-11-23T15:27:17.033051Z",
+    "user": "nida@gmail.com",
+    "user_msg": "management",
+    "bot_msg": "\ud83d\udc68\u200d\ud83d\udcbc <b>College Director</b><br><br><b>Dr. D G Kulkarni</b><br>He provides strategic leadership and guides the institution\u2019s growth.",
+    "offline": false
+  },
+  {
+    "id": "6f28635d-28fb-4268-90b8-f6ac2b3009e3",
+    "ts": "2025-11-23T15:31:41.974039Z",
+    "user": "nida@gmail.com",
+    "user_msg": "student life",
+    "bot_msg": "\ud83c\udf93 Student Life at MMEC<br><br>\u2022 Technical Clubs: Coding, Robotics, Hackathons<br>\u2022 Cultural Events: Annual Fest \u201cOjas\u201d, Dance & Music<br>\u2022 Social Service: NSS Activities & Community Outreach<br>\u2022 Sports: Indoor & Outdoor Facilities, Tournaments<br>\u2022 Growth: Workshops, Seminars & Guest Lectures<br><br>Visit https://www.mmec.edu.in for student clubs and event calendar.",
+    "offline": false
+  },
+  {
+    "id": "5e2255da-2ce9-4858-af96-1d2c34f87562",
+    "ts": "2025-11-23T15:39:33.040728Z",
+    "user": "nida@gmail.com",
+    "user_msg": "contact details",
+    "bot_msg": "\ud83c\udfdb\ufe0f <b>Maratha Mandal Engineering College (MMEC)</b><br><br>\ud83d\udccd <b>Location:</b> Halbhavi, Belagavi \u2013 591113<br>\ud83d\uddd3\ufe0f <b>Established:</b> 1997<br>\ud83c\udf93 <b>Affiliation:</b> VTU Belagavi<br>\u2699\ufe0f <b>Approved by:</b> AICTE<br>\ud83c\udfe2 <b>Managed by:</b> Maratha Mandal Trust (est. 1931)<br><br>\u2b50 MMEC offers value-based education, strong placements, modern labs, and a student-friendly campus.<br><br>\ud83c\udf10 Website: <a href=\"https://www.mmec.edu.in\" target=\"_blank\" rel=\"noopener\">www.mmec.edu.in</a>",
+    "offline": false
+  },
+  {
+    "id": "b7a80f8f-ba15-4e03-aef1-d7bc770e2d9b",
+    "ts": "2025-11-23T15:39:36.120988Z",
+    "user": "nida@gmail.com",
+    "user_msg": "admission process",
+    "bot_msg": "\ud83d\udcdd <b>Admissions</b><br><br>\u2714 Eligibility as per VTU & AICTE norms<br>\u2714 KCET / COMEDK / DCET accepted<br>\u2714 Document verification required<br><br>\ud83d\udccc Details: <a href=\"https://www.mmec.edu.in/admissions\" target=\"_blank\" rel=\"noopener\">www.mmec.edu.in/admissions</a><br>\ud83d\udcde Helpline: 9353364643",
+    "offline": false
+  },
+  {
+    "id": "3ef7ffbc-47af-4475-a292-87b88dd91cbc",
+    "ts": "2025-11-23T15:39:39.788585Z",
+    "user": "nida@gmail.com",
+    "user_msg": "courses offered",
+    "bot_msg": "\ud83d\udcda <b>Courses Offered</b><br><br>\ud83d\udcbb CSE \u2013 Computer Science & Engineering<br>\ud83e\udd16 R&AI \u2013 Robotics & Artificial Intelligence<br>\ud83d\udce1 ECE \u2013 Electronics & Communication Engineering<br>\u2699\ufe0f Mechanical Engineering",
+    "offline": false
+  },
+  {
+    "id": "05d3d0ef-cda1-4854-9452-5d5159ba12cc",
+    "ts": "2025-11-23T15:39:41.937854Z",
+    "user": "nida@gmail.com",
+    "user_msg": "fee structure",
+    "bot_msg": "\ud83d\udcb0 <b>Fee Structure at MMEC</b><br><br>\n<b>A. Management Quota:</b><br>\n\u2022 \ud83d\udcbb CSE: \u20b92,00,000/- per year<br>\n\u2022 \ud83d\udce1 ECE: \u20b91,75,000/- per year<br>\n\u2022 \ud83e\udd16 Robotics & AI (R&AI): \u20b91,70,000/- per year<br>\n\u2022 \u2699\ufe0f Mechanical Engineering:<br>\n&nbsp;&nbsp;&nbsp;&nbsp;\u2022 1st Year: \u20b935,000/-<br>\n&nbsp;&nbsp;&nbsp;&nbsp;\u2022 2nd Year Onwards: \u20b955,000/- per year<br><br>\n<b>B. Merit Students:</b><br>\n\u2022 \ud83c\udf93 All branches: \u20b91,00,000/- per year<br><br>\n<b>C. Additional Fees:</b><br>\n<b>1. One-time Fees:</b><br>\n\u2022 \ud83d\udcdd Admission Form: \u20b91,200/-<br>\n\u2022 \ud83c\udf93 Alumni Association: \u20b9500/-<br><br>\n<b>2. Annual Fees:</b><br>\n\u2022 \ud83c\udfdb Department Association: \u20b9500/-<br>\n\u2022 \ud83d\ude8c Transportation: \u20b912,000/- (\u20b96,000 by Management + \u20b96,000 by Student)<br><br>\n<b>D. Hostel Facilities:</b><br>\n\u2022 \ud83c\udfe0 Accommodation: \u20b940,000/- per year<br>\n\u2022 \ud83d\udd10 Security Deposit: \u20b910,000/- (Non-refundable)<br>\n\u2022 \ud83c\udf7d\ufe0f Mess Charges: \u20b93,500 \u2013 \u20b93,800 per month (depends on market rates)<br><br>\n<b>Important Notes:</b><br>\n\u2022 \ud83d\udcd8 Admissions based on merit (MMEC Test / KEA)<br>\n\u2022 \ud83d\udeab No donations accepted<br>\n\u2022 \ud83d\udcb3 Payments: Online Banking, UPI, Cash, DD<br>\n\u2022 \u274c Bank cheques not accepted<br><br>\n\ud83d\udcde For detailed fee structure: +91 9353364643",
+    "offline": false
+  },
+  {
+    "id": "688fe811-0773-4b5e-ab71-b05f2881a7d0",
+    "ts": "2025-11-23T15:39:47.619251Z",
+    "user": "nida@gmail.com",
+    "user_msg": "contact details",
+    "bot_msg": "\ud83c\udfdb\ufe0f <b>Maratha Mandal Engineering College (MMEC)</b><br><br>\ud83d\udccd <b>Location:</b> Halbhavi, Belagavi \u2013 591113<br>\ud83d\uddd3\ufe0f <b>Established:</b> 1997<br>\ud83c\udf93 <b>Affiliation:</b> VTU Belagavi<br>\u2699\ufe0f <b>Approved by:</b> AICTE<br>\ud83c\udfe2 <b>Managed by:</b> Maratha Mandal Trust (est. 1931)<br><br>\u2b50 MMEC offers value-based education, strong placements, modern labs, and a student-friendly campus.<br><br>\ud83c\udf10 Website: <a href=\"https://www.mmec.edu.in\" target=\"_blank\" rel=\"noopener\">www.mmec.edu.in</a>",
+    "offline": false
+  },
+  {
+    "id": "962bb5dd-51ae-4ae9-95b9-3d108fcdb983",
+    "ts": "2025-11-23T15:39:50.391845Z",
+    "user": "nida@gmail.com",
+    "user_msg": "campus facilities",
+    "bot_msg": "\ud83c\udfeb <b>Campus Facilities</b><br><br>\ud83d\udcda Digital Library<br>\ud83e\uddea Modern Labs<br>\ud83d\udcf6 High-speed WiFi<br>\ud83d\ude8c College Bus<br>\ud83c\udf7d\ufe0f Canteen<br>\ud83c\udfe0 Separate Hostels<br>\u26bd Sports facilities<br>\ud83d\udee1\ufe0f 24\u00d77 Security",
+    "offline": false
+  },
+  {
+    "id": "b082c0f8-c44e-42f0-a0e6-d659848d8a2e",
+    "ts": "2025-11-23T15:39:54.574104Z",
+    "user": "nida@gmail.com",
+    "user_msg": "scholarships",
+    "bot_msg": "\ud83d\udc4b Hello! How can I help you with MMEC today?",
+    "offline": false
+  },
+  {
+    "id": "954ff4b9-11b4-4179-99ea-ee8e502587e9",
+    "ts": "2025-11-23T15:39:57.920940Z",
+    "user": "nida@gmail.com",
+    "user_msg": "scholarships",
+    "bot_msg": "\ud83d\udc4b Hello! How can I help you with MMEC today?",
+    "offline": false
+  },
+  {
+    "id": "46a0c83f-9dfb-45f2-8444-0f12ea1527e0",
+    "ts": "2025-11-23T15:40:00.158652Z",
+    "user": "nida@gmail.com",
+    "user_msg": "student life",
+    "bot_msg": "\ud83c\udf93 Student Life at MMEC<br><br>\u2022 Technical Clubs: Coding, Robotics, Hackathons<br>\u2022 Cultural Events: Annual Fest \u201cOjas\u201d, Dance & Music<br>\u2022 Social Service: NSS Activities & Community Outreach<br>\u2022 Sports: Indoor & Outdoor Facilities, Tournaments<br>\u2022 Growth: Workshops, Seminars & Guest Lectures<br><br>Visit <a href=\"https://www.mmec.edu.in\" target=\"_blank\" rel=\"noopener\">https://www.mmec.edu.in</a> for student clubs and event calendar.",
+    "offline": false
+  },
+  {
+    "id": "e322d8d8-c8db-4c99-9341-ad2b3eeb4bce",
+    "ts": "2025-11-23T15:40:02.449241Z",
+    "user": "nida@gmail.com",
+    "user_msg": "college website",
+    "bot_msg": "Visit our website: https://www.mmec.edu.in",
+    "offline": true
+  },
+  {
+    "id": "1f66b317-63e3-46aa-8fbd-c43c56be3e49",
+    "ts": "2025-11-23T15:41:54.584409Z",
+    "user": "nida@gmail.com",
+    "user_msg": "management",
+    "bot_msg": "\ud83d\udc68\u200d\ud83d\udcbc <b>College Director</b><br><br><b>Dr. D G Kulkarni</b><br>He provides strategic leadership and guides the institution\u2019s growth.",
+    "offline": false
+  },
+  {
+    "id": "76b4a364-56e8-4ec8-b898-855e1c56488a",
+    "ts": "2025-11-23T15:52:20.844244Z",
+    "user": "nida@gmail.com",
+    "user_msg": "scholarships",
+    "bot_msg": "\ud83c\udf93 <b>Scholarships at MMEC</b><br><br>\u2728 MMEC supports students with multiple Government & Institutional scholarship schemes:<br><br>\u2022 \ud83d\udd4c <b>Minority Scholarship</b> (for eligible Muslim, Christian, Jain, Sikh, Buddhist students)<br>\u2022 \ud83c\udfaf <b>Merit-Based Scholarships</b> (based on academic performance)<br>\u2022 \ud83d\udcbc <b>SC/ST & OBC Scholarships</b> under Government of Karnataka<br>\u2022 \ud83d\udcda <b>Pragati Scholarship</b> for girl students (AICTE)<br>\u2022 \ud83e\udd1d <b>Saksham Scholarship</b> for specially-abled students (AICTE)<br>\u2022 \ud83c\udfc5 <b>Fee Concession Schemes</b> for economically weaker students<br><br>\ud83d\udccc <b>Required documents usually include:</b><br>\u2022 Income certificate<br>\u2022 Aadhaar card<br>\u2022 SSLC/PUC/UG marks card<br>\u2022 Bank passbook<br>\u2022 Caste certificate (if applicable)<br><br>\ud83c\udf10 For detailed guidelines, visit: <a href=\"https://www.mmec.edu.in\" target=\"_blank\" rel=\"noopener\">www.mmec.edu.in</a><br>\ud83d\udcde For assistance: Contact the MMEC Scholarship Help Desk at <b>9353364643</b>.",
+    "offline": false
+  },
+  {
+    "id": "6ff08b21-6b4a-4a82-bb1f-7bce6fb092f1",
+    "ts": "2025-11-23T15:52:35.411429Z",
+    "user": "nida@gmail.com",
+    "user_msg": "campus facilities",
+    "bot_msg": "\ud83c\udfeb <b>Campus Facilities</b><br><br>\ud83d\udcda Digital Library<br>\ud83e\uddea Modern Labs<br>\ud83d\udcf6 High-speed WiFi<br>\ud83d\ude8c College Bus<br>\ud83c\udf7d\ufe0f Canteen<br>\ud83c\udfe0 Separate Hostels<br>\u26bd Sports facilities<br>\ud83d\udee1\ufe0f 24\u00d77 Security",
+    "offline": false
+  },
+  {
+    "id": "a4d76266-c6aa-4ec5-998c-6653b9ac09ba",
+    "ts": "2025-11-23T15:52:39.757654Z",
+    "user": "nida@gmail.com",
+    "user_msg": "contact details",
+    "bot_msg": "\ud83c\udfdb\ufe0f <b>Maratha Mandal Engineering College (MMEC)</b><br><br>\ud83d\udccd <b>Location:</b> Halbhavi, Belagavi \u2013 591113<br>\ud83d\uddd3\ufe0f <b>Established:</b> 1997<br>\ud83c\udf93 <b>Affiliation:</b> VTU Belagavi<br>\u2699\ufe0f <b>Approved by:</b> AICTE<br>\ud83c\udfe2 <b>Managed by:</b> Maratha Mandal Trust (est. 1931)<br><br>\u2b50 MMEC offers value-based education, strong placements, modern labs, and a student-friendly campus.<br><br>\ud83c\udf10 Website: <a href=\"https://www.mmec.edu.in\" target=\"_blank\" rel=\"noopener\">www.mmec.edu.in</a>",
+    "offline": false
+  },
+  {
+    "id": "8da38321-6ff5-434a-8658-451001cfb1f9",
+    "ts": "2025-11-23T15:52:47.473741Z",
+    "user": "nida@gmail.com",
+    "user_msg": "management",
+    "bot_msg": "\ud83d\udc68\u200d\ud83d\udcbc <b>College Director</b><br><br><b>Dr. D G Kulkarni</b><br>He provides strategic leadership and guides the institution\u2019s growth.",
+    "offline": false
+  },
+  {
+    "id": "da804169-df33-4adc-a4ed-828ed9475234",
+    "ts": "2025-11-23T15:53:16.976856Z",
+    "user": "nida@gmail.com",
+    "user_msg": "management",
+    "bot_msg": "\ud83c\udfe2 <b>College Management</b><br><br>MMEC is managed by the <b>Maratha Mandal Trust</b>, a well-established trust running many institutions in Belagavi. The leadership includes the Director, Principal, Vice-Principal and Heads of Departments.<br><br>For more about our governance and management team, visit the official site: <a href=\"https://www.mmec.edu.in\" target=\"_blank\">MMEC Management Info</a>.",
+    "offline": false
+  },
+  {
+    "id": "3203d0c6-5dc3-437d-9ca3-674cd819d859",
+    "ts": "2025-11-23T15:53:46.581898Z",
+    "user": "nida@gmail.com",
+    "user_msg": "prime minister of india",
+    "bot_msg": ". The chatbot answers college FAQs from local data.",
+    "offline": false
+  },
+  {
+    "id": "34fb105b-846f-4674-b858-19794b283e66",
+    "ts": "2025-11-23T15:54:28.801562Z",
+    "user": "nida@gmail.com",
+    "user_msg": "akwnbjewbj",
+    "bot_msg": ". The chatbot answers college FAQs from local data.",
+    "offline": false
+  },
+  {
+    "id": "f1697624-90b9-466b-81f5-5a2c4a065332",
+    "ts": "2025-11-23T15:55:05.408237Z",
+    "user": "nida@gmail.com",
+    "user_msg": "management",
+    "bot_msg": "\ud83c\udfe2 <b>College Management</b><br><br>MMEC is managed by the <b>Maratha Mandal Trust</b>, a well-established trust running many institutions in Belagavi. The leadership includes the Director, Principal, Vice-Principal and Heads of Departments.<br><br>For more about our governance and management team, visit the official site: <a href=\"https://www.mmec.edu.in\" target=\"_blank\">MMEC Management Info</a>.",
+    "offline": false
+  },
+  {
+    "id": "8153e413-73d6-4cca-9853-440c4935b4d9",
+    "ts": "2025-11-23T15:56:31.433726Z",
+    "user": "nida@gmail.com",
+    "user_msg": "awjbsjwe x",
+    "bot_msg": ". The chatbot answers college FAQs from local data.",
+    "offline": false
+  },
+  {
+    "id": "fdf586ad-e8b3-46c4-83d3-ba2d1ac8582e",
+    "ts": "2025-11-23T16:03:42.985660Z",
+    "user": "nida@gmail.com",
+    "user_msg": "nibhkhcg",
+    "bot_msg": ". The chatbot answers college FAQs from local data.",
+    "offline": false
+  },
+  {
+    "id": "a5136e86-e861-4875-bd41-fae1c92c6f85",
+    "ts": "2025-11-23T16:07:54.533370Z",
+    "user": "nida@gmail.com",
+    "user_msg": "bgfcxdfxdaxdx",
+    "bot_msg": ". The chatbot answers college FAQs from local data.",
+    "offline": false
+  },
+  {
+    "id": "4933c95d-257a-43aa-ad6e-6a3b83c37653",
+    "ts": "2025-11-23T16:10:54.229061Z",
+    "user": "nida@gmail.com",
+    "user_msg": "placements",
+    "bot_msg": "\ud83d\udcbc <b>Placements</b><br><br>\u2022 Regular training & aptitude sessions<br>\u2022 Companies: Infosys, TCS, Wipro, Tech Mahindra, Bosch, etc.<br>\u2022 Average Package: \u20b94.5 LPA<br>\u2022 Highest Package: \u20b912 LPA",
+    "offline": false
+  },
+  {
+    "id": "8b7f5499-378c-4a35-ade1-3d0652fc316d",
+    "ts": "2025-11-23T16:11:19.145678Z",
+    "user": "nida@gmail.com",
+    "user_msg": "jxsbjqdbjwevdhewv",
+    "bot_msg": ". The chatbot answers college FAQs from local data.",
+    "offline": false
+  },
+  {
+    "id": "25a8357d-a644-41c2-86b6-edaea51183a2",
+    "ts": "2025-11-23T16:16:13.961317Z",
+    "user": "nida@gmail.com",
+    "user_msg": "courses offered",
+    "bot_msg": "\ud83d\udcda <b>Courses Offered</b><br><br>\ud83d\udcbb CSE \u2013 Computer Science & Engineering<br>\ud83e\udd16 R&AI \u2013 Robotics & Artificial Intelligence<br>\ud83d\udce1 ECE \u2013 Electronics & Communication Engineering<br>\u2699\ufe0f Mechanical Engineering",
+    "offline": false
+  },
+  {
+    "id": "1fbcfcf4-029b-4a76-830d-f14547a241f0",
+    "ts": "2025-11-23T16:16:34.268354Z",
+    "user": "nida@gmail.com",
+    "user_msg": "aqmnsj2d",
+    "bot_msg": ". The chatbot answers college FAQs from local data.",
+    "offline": false
+  },
+  {
+    "id": "b4d8dc15-b85b-4ba8-91a6-75c415a5ad15",
+    "ts": "2025-11-23T16:23:34.805446Z",
+    "user": "nida@gmail.com",
+    "user_msg": "aqqqeuhefghrbfhbvc",
+    "bot_msg": "I only provide information about Maratha Mandal Engineering College (MMEC).",
+    "offline": false
+  },
+  {
+    "id": "973ef91f-731f-403e-8839-cfb2e8c756c9",
+    "ts": "2025-11-23T16:23:56.779347Z",
+    "user": "nida@gmail.com",
+    "user_msg": "prime minister of india",
+    "bot_msg": "I only provide information about Maratha Mandal Engineering College (MMEC).",
+    "offline": false
+  },
+  {
+    "id": "5b1aeeac-679b-4471-ac7e-461ea048664e",
+    "ts": "2025-11-23T16:24:14.107114Z",
+    "user": "nida@gmail.com",
+    "user_msg": "corse",
+    "bot_msg": "Do you mean \"courses\"? At Maratha Mandal Engineering College (MMEC), we offer the following:\n*   **Undergraduate Programmes (B.E.):**\n*   Computer Science and Engineering\n*   Electronics and Communication Engineering\n*   Mechanical Engineering\n*   Robotics and Artificial Intelligence\n*   **Research (Ph.D.)**",
+    "offline": false
+  },
+  {
+    "id": "9aac1fd6-4e7e-4f26-ac72-da9f0226c51a",
+    "ts": "2025-11-23T16:24:35.605463Z",
+    "user": "nida@gmail.com",
+    "user_msg": "yes exams",
+    "bot_msg": "You can find the VTU Exam Time Table on the MMEC website.",
+    "offline": false
+  },
+  {
+    "id": "7c86ed30-93f9-446f-b0c3-372fd06fdbc6",
+    "ts": "2025-11-23T16:24:53.830441Z",
+    "user": "nida@gmail.com",
+    "user_msg": "ok thank u",
+    "bot_msg": "You're welcome! Is there anything I can help you with regarding Maratha Mandal Engineering College (MMEC)?",
+    "offline": false
   }
 ]
